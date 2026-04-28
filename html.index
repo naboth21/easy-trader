@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Easy</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Trade Easy</h1>
+  <p>Simplifying Online Trading for Everyone</p>
+  <a href="#" class="btn">Start Trading</a>
+  <a href="#" class="btn">Join WhatsApp</a>
+</header>
+
+<section>
+  <h2>About Trade Easy</h2>
+  <p>Trade Easy helps beginners learn trading, follow simple signals, and grow their income with guidance and support.</p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="card">
+    <h3>Free Signals</h3>
+    <p>Get started with beginner-friendly trade ideas.</p>
+  </div>
+  <div class="card">
+    <h3>VIP Signals</h3>
+    <p>Advanced signals for serious traders.</p>
+  </div>
+  <div class="card">
+    <h3>Mentorship</h3>
+    <p>Learn trading step-by-step.</p>
+  </div>
+</section>
+
+<section>
+  <h2>How It Works</h2>
+  <p>1. Sign up for a trading account</p>
+  <p>2. Join our community</p>
+  <p>3. Follow signals and learn</p>
+</section>
+
+<section>
+  <h2>Join Trade Easy Today</h2>
+  <a href="#" class="btn">Create Account</a>
+  <a href="#" class="btn">Join Telegram</a>
+</section>
+
+<footer>
+  <p>© 2026 Trade Easy. All rights reserved.</p>
+</footer>
+
+<!-- Link JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
