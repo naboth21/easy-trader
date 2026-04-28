@@ -1,51 +1,120 @@
-body {
-  font-family: Arial, sans-serif;
+/* RESET */
+* {
   margin: 0;
-  background: #0f172a;
-  color: white;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* BODY */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #020617; /* solid dark */
+  color: #e2e8f0;
+  line-height: 1.6;
+  text-align: center; /* centers all text */
+}
+
+/* CENTER CONTENT WRAPPER */
+section, header, footer {
+  max-width: 900px;
+  margin: auto; /* center horizontally */
+}
+
+/* HEADER */
 header {
-  text-align: center;
-  padding: 60px 20px;
+  padding: 100px 20px;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #22c55e;
 }
 
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #94a3b8;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin: 15px 10px;
+  padding: 14px 24px;
+  background: #22c55e;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+}
+
+/* SECTIONS */
+section {
+  padding: 70px 20px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* CARDS CONTAINER */
+section div {
+  display: flex;
+  justify-content: center; /* center cards */
+  flex-wrap: wrap;
+}
+
+/* CARDS */
+.card {
+  background: #0f172a;
+  padding: 25px;
+  margin: 15px;
+  border-radius: 15px;
+  width: 260px;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #1e293b;
+}
+
+/* TEXT */
 p {
   max-width: 600px;
   margin: 10px auto;
+  color: #cbd5e1;
 }
 
-.btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 20px;
-  background: #22c55e;
-  color: black;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-}
-
-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.card {
-  background: #1e293b;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-  display: inline-block;
-  width: 250px;
-}
-  
+/* FOOTER */
 footer {
-  text-align: center;
-  padding: 20px;
+  padding: 30px;
   font-size: 0.9rem;
+  color: #64748b;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+  }
 }
